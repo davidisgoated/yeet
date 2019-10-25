@@ -1,0 +1,4 @@
+<?php
+if (!($hfile = fopen("$file", "r"))
+echo("error cant open the file: $file<br />\n");
+?>
